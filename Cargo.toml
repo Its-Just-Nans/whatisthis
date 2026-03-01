@@ -9,11 +9,11 @@ homepage = "https://file.n4n5.dev/"
 repository = "https://github.com/Its-Just-Nans/whatisthis"
 
 [dependencies]
-file-format = { version = "0.26.0", features = ["reader"] }
-serde_json = "1.0.138"
-serde = { version = "1.0.217", features = ["derive"] }
+file-format = { version = "0.28.0", features = ["reader"] }
+serde_json = "1.0.149"
+serde = { version = "1.0.228", features = ["derive"] }
 kamadak-exif = "0.6.1"
-zip = { version = "2.6.1", default-features = false, features = [
+zip = { version = "8.1.0", default-features = false, features = [
     # "aes-crypto",
     # "bzip2",
     # "xz",
@@ -23,7 +23,7 @@ zip = { version = "2.6.1", default-features = false, features = [
     "time",
     "zstd",
 ] }
-clap = { version = "4.5.37", features = ["derive"] }
+clap = { version = "4.5.60", features = ["derive"] }
 
 [target.wasm32-unknown-unknown.dependencies]
 console_error_panic_hook = "0.1"
