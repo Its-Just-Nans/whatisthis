@@ -815,7 +815,7 @@ dependencies = [
 
 [[package]]
 name = "whatisthis"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "clap",
  "console_error_panic_hook",
